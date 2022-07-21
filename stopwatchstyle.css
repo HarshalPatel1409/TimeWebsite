@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#main{
+    background: center/cover no-repeat url(/img/time1.jpg);
+    height: 680px;
+}
+
+nav{
+    background-color: black;
+    padding: 13px 14px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: rgb(159, 125, 81);
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#navbar li a:hover{
+    color: black;
+    font-weight: bold;
+    background-color: antiquewhite;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+.container{
+    /* background-color: rgb(34, 34, 34); */
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.timerDisplay{
+    position: relative;
+    font-family: 'Roboto mono',monospace;   
+    font-size: 40px;
+    color: antiquewhite;
+    background-color: black;
+    width: 92%;
+    left: 4%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    width: 120px;
+    height: 45px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons #startTimer{
+    color: #20b380;
+}
+.buttons #pauseTimer{
+    color: #d23332;
+}
+.buttons #resetTimer{
+    color: #205e94;
+}
+
+.buttons #startTimer:hover{
+    background-color: #20b380;
+    color: #ffffff;
+}
+.buttons #pauseTimer:hover{
+    background-color: #d23332;
+    color: #ffffff;
+}
+.buttons #resetTimer:hover{
+    background-color: #205e94;
+    color: #ffffff;
+}
