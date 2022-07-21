@@ -1,0 +1,38 @@
+// TO upload New File
+
+git config --global user.name "Harshal"
+git config --global user.email "20bt04034@gsfcuniversity.ac.in"
+
+touch .gitignore
+git inti
+git add 
+
+git commit -m "Initail commit"
+git status
+
+
+git remote add origin ___  (add ssh link from github  repository)
+
+// To create security key
+ssh-keygen -t rsa -b 4096 -C "20bt04034@gsfcuniversity.ac.in"
+
+// To get the key
+tail <__>  (above code will show location of id_rsa.pub file copy that location and paste here)
+
+// Get the key
+Add this key (new ssh file) to github
+
+git push origin master  (Then type yes)
+
+
+DONE
+
+
+
+// To Update existing file
+
+git add
+
+git commmit -m "Added cheatsheet" (can use different names)
+
+git push origin master
